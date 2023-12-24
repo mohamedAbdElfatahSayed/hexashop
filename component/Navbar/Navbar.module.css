@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+.logo{
+    color: rgb(251, 5, 5);
+    font-weight: bold;
+}
+.links{
+    display: flex;
+    font-size: 18px;
+    text-transform: capitalize;
+    gap:30px;
+    align-items: center;
+    text-transform: uppercase;
+
+}

@@ -1,0 +1,18 @@
+.container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--color-primary);
+    border-radius: 30px;
+    padding: 5px;
+    position: relative;
+    cursor: pointer;
+}
+.switcher{
+    width: 25px;
+    background-color: var(--color-primary);
+    position: absolute;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    cursor: pointer;
+}
